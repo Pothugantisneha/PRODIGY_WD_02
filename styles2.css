@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://media.istockphoto.com/id/1348987486/photo/blue-vintage-canvas-background.jpg?s=612x612&w=0&k=20&c=i7cN_BEGgYQyJi1JD3u3lp49pGCccDfyEndUQXIZB1s=);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.stopwatch-container {
+    background-color:#ace5ee ;
+    padding: 70px;
+    border-radius: 70px;
+    box-shadow: 0 0 10px #00aae4;
+    text-align: center;
+}
+
+.time-display {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #0d98ba;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.lap-times {
+    list-style: none;
+    padding: 0;
+}
+
+.lap-times li {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
